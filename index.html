@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Past Tenses — English 80</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="root"></div>
+
+<script>
+window.LESSON = {
+  id:"past",
+  title:"Past Tenses",
+  subtitle:"Ағылшын тіліндегі өткен шақтарды меңгеру",
+  intro:"Өткен шақтың төрт түрін, олардың формулаларын, айырмашылықтарын және Used to құрылымын меңгереміз. Reading пен командалық тапсырмалар арқылы бекітеміз.",
+
+  lessons:[
+    {
+      title:"1. Past Tenses дегеніміз не?",
+      text:`Past Tenses — өткен шақтар.
+
+Ағылшын тілінде бұрын болған оқиғалар әртүрлі шақ арқылы сипатталады.
+
+Past Simple — өткенде аяқталған іс.
+Past Continuous — өткен уақыттың белгілі бір сәтіндегі процесс.
+Past Perfect — өткендегі басқа әрекеттен бұрын болған іс.
+Past Perfect Continuous — өткендегі бір сәтке дейін жалғасқан әрекет.
+
+Осы шақтар арқылы оқиғаның ретін, аяқталуын және ұзақтығын көрсетуге болады.
+
+Өткен шақты дұрыс таңдау үшін «Қашан болды?», «Қанша уақытқа созылды?», «Қайсысы бұрын болды?» деген сұрақтарды қою керек.`,
+      examples:[
+        "I visited Astana last year.",
+        "I was studying at 8 p.m.",
+        "I had finished my work before dinner."
+      ],
+      note:"PAST TENSES\nPast Simple — аяқталған әрекет.\nPast Continuous — процесс.\nPast Perfect — ертерек болған әрекет.\nPast Perfect Continuous — әрекеттің ұзақтығы.",
+      ask:"Кеше болған бір оқиғаны екі түрлі өткен шақта сипатта."
+    },
+    {
+      title:"2. Past Simple",
+      text:`Past Simple — өткенде басталып, аяқталған әрекетті білдіреді.
+
+Оң сөйлем:
+Subject + V2.
+
+Болымсыз:
+Subject + didn't + V1.
+
+Сұраулы:
+Did + subject + V1?
+
+Дұрыс етістіктерге көбіне -ed жалғанады.
+
+Бұрыс етістіктердің екінші формасы бөлек болады:
+go → went, buy → bought.
+
+Did және didn't қолданылғанда негізгі етістік бастапқы формаға қайтады.
+
+Жиі кездесетін уақыт белгілері: yesterday, last week, two days ago.`,
+      examples:[
+        "I visited my grandmother yesterday.",
+        "He didn't go to college on Sunday.",
+        "Did you finish your homework?"
+      ],
+      note:"PAST SIMPLE\nОң: V2.\nТеріс: didn't + V1.\nСұрақ: Did + subject + V1?",
+      ask:"I didn't went to school сөйлеміндегі қатені түсіндір."
+    },
+    {
+      title:"3. Past Continuous",
+      text:`Past Continuous — өткен шақтың белгілі бір сәтінде жалғасып жатқан әрекетті көрсетеді.
+
+Формула:
+was/were + V-ing.
+
+I, he, she, it → was.
+You, we, they → were.
+
+Мысалы:
+I was studying at 9 p.m.
+
+Бұл әрекеттің дәл сол уақытта жүріп жатқанын көрсетеді.
+
+Past Continuous көбіне басқа қысқа әрекетпен бірге қолданылады.
+
+When және while сөздері әрекеттерді байланыстырады.
+
+Мысалы: I was reading when the phone rang.`,
+      examples:[
+        "She was cooking when I called.",
+        "They were studying at 8 p.m.",
+        "While I was walking, it started to rain."
+      ],
+      note:"PAST CONTINUOUS\nWas/were + V-ing.\nӨткен шақтағы белгілі бір сәтте жүріп жатқан әрекет.",
+      ask:"Кеше сағат 8-де не істеп жатқаныңды ағылшынша айт."
+    },
+    {
+      title:"4. Past Simple және Past Continuous",
+      text:`Past Simple өткендегі аяқталған оқиғаны білдіреді.
+
+Past Continuous өткендегі белгілі бір уақытта жүріп жатқан процесті көрсетеді.
+
+I cooked dinner.
+Мен кешкі ас дайындадым.
+
+I was cooking dinner.
+Мен кешкі ас дайындап жатқан едім.
+
+Екі шақ бір сөйлемде кездесуі мүмкін.
+
+I was reading when my friend arrived.
+
+Мұнда reading — жалғасып жатқан әрекет, arrived — сол кезде болған қысқа әрекет.
+
+While екі қатар жүріп жатқан процесті байланыстыруда да қолданылады.`,
+      examples:[
+        "I was watching TV when Mum came home.",
+        "While I was reading, my sister was drawing.",
+        "He fell while he was running."
+      ],
+      note:"PAST SIMPLE — аяқталған әрекет.\nPAST CONTINUOUS — жалғасып жатқан әрекет.\nWhen және while арқылы байланыстырылады.",
+      ask:"When және while сөздерімен екі сөйлем құрастыр."
+    },
+    {
+      title:"5. Past Perfect",
+      text:`Past Perfect — өткендегі бір әрекеттің басқа өткен әрекеттен бұрын болғанын анық көрсетеді.
+
+Формула:
+had + V3.
+
+V3 — етістіктің үшінші формасы.
+
+Мысалы:
+When I arrived, the train had left.
+
+Мен келгенде пойыз кетіп қалған еді.
+
+Пойыздың кетуі бұрын, менің келуім кейін болды.
+
+Past Perfect әр өткен оқиғаға міндетті емес. Көбіне оқиғалардың ретін арнайы көрсету қажет болғанда қолданылады.
+
+Before, after, already және by the time сөздерімен жиі кездеседі.`,
+      examples:[
+        "She had left before I arrived.",
+        "I had finished my work by six o'clock.",
+        "They hadn't seen the film before."
+      ],
+      note:"PAST PERFECT\nHad + V3.\nӨткендегі басқа оқиғадан бұрын орындалған әрекет.",
+      ask:"When I arrived, the lesson had started сөйлемінде қай оқиға бірінші болды?"
+    },
+    {
+      title:"6. Past Perfect Continuous",
+      text:`Past Perfect Continuous — өткендегі белгілі бір уақытқа дейін әрекеттің қанша уақыт жалғасқанын көрсетеді.
+
+Формула:
+had been + V-ing.
+
+Мысалы:
+I had been studying for two hours when my friend called.
+
+Досым қоңырау шалғанға дейін екі сағат оқып отырған едім.
+
+Бұл шақ әрекеттің ұзақтығына назар аударады.
+
+For — уақыт ұзақтығы.
+Since — басталу уақыты.
+
+Past Perfect көбіне орындалған нәтижеге назар аударса, Past Perfect Continuous процестің ұзақтығын көрсетеді.`,
+      examples:[
+        "He had been working for three hours before lunch.",
+        "They had been waiting since 8 a.m.",
+        "She had been reading for an hour when I arrived."
+      ],
+      note:"PAST PERFECT CONTINUOUS\nHad been + V-ing.\nFor — қанша уақыт.\nSince — қай уақыттан бастап.",
+      ask:"Past Perfect пен Past Perfect Continuous айырмашылығын түсіндір."
+    },
+    {
+      title:"7. Used to",
+      text:`Used to — өткен кездегі әдетті немесе бұрын болған жағдайды білдіреді.
+
+Формула:
+used to + V1.
+
+Мысалы:
+I used to play football every day.
+
+Мен бұрын күн сайын футбол ойнайтынмын.
+
+Болымсыз:
+didn't use to + V1.
+
+Сұраулы:
+Did you use to + V1?
+
+Used to көмегімен адамның өміріндегі өзгерістерді сипаттауға болады.
+
+Мысалы, бұрын ауылда тұрған адам қазір қалада тұруы мүмкін.
+
+Would да кейде өткендегі қайталанатын әрекеттерді білдіреді, бірақ used to өткендегі күйлерді сипаттауға да жарайды.`,
+      examples:[
+        "I used to live in a village.",
+        "I didn't use to drink coffee.",
+        "Did you use to play basketball?"
+      ],
+      note:"USED TO + V1 — бұрынғы әдет.\nDidn't use to + V1 — болымсыз.\nDid you use to + V1? — сұрақ.",
+      ask:"Өзіңнің бұрынғы үш әдетіңді ағылшынша жаз."
+    },
+    {
+      title:"8. Өткен шақтарды салыстыру",
+      text:`Өткен шақтардың айырмашылығын есте сақтау үшін әр әрекеттің уақытын елестет.
+
+Past Simple — аяқталған оқиға.
+
+Past Continuous — белгілі бір сәтте жүріп жатқан оқиға.
+
+Past Perfect — басқа өткен әрекеттен бұрын аяқталған оқиға.
+
+Past Perfect Continuous — өткендегі белгілі бір сәтке дейін жалғасқан процесс.
+
+Used to — бұрын болған әдет немесе жағдай.
+
+Әңгіме жазғанда бір мәтінде бірнеше өткен шақ кездесуі мүмкін.
+
+Олардың әрқайсысы оқиғаны нақтырақ түсіндіруге көмектеседі.`,
+      examples:[
+        "I arrived at 8 o'clock.",
+        "Students were waiting when I arrived.",
+        "The teacher had already entered the classroom.",
+        "They had been waiting for twenty minutes."
+      ],
+      note:"PAST TENSE ТАҢДАУ\n1. Аяқталды ма? — Past Simple.\n2. Процесс пе? — Past Continuous.\n3. Бұрын болды ма? — Past Perfect.\n4. Ұзақтығы маңызды ма? — Past Perfect Continuous.",
+      ask:"Барлық төрт өткен шақты қолданып бір оқиғаны баянда."
+    }
+  ],
+
+  video:{
+    id:"uTB5I8V9Eog",
+    title:"BBC Learning English — Past Simple and Past Continuous",
+    task:"Past Simple және Past Continuous сөйлемдеріне екі мысал жаз."
+  },
+
+  summary:[
+    "Past Tenses — өткен шақтар.",
+    "Past Simple: Subject + V2.",
+    "Past Simple negative: didn't + V1.",
+    "Past Simple question: Did + subject + V1?",
+    "Past Continuous: was/were + V-ing.",
+    "Past Perfect: had + V3.",
+    "Past Perfect Continuous: had been + V-ing.",
+    "Past Simple — өткенде аяқталған әрекет.",
+    "Past Continuous — өткендегі процесс.",
+    "Past Perfect — өткендегі ертерек әрекет.",
+    "Past Perfect Continuous — өткендегі әрекеттің ұзақтығы.",
+    "Used to + V1 — бұрынғы әдет."
+  ],
+
+  noteTasks:[
+    "Past Simple арқылы кешегі күн туралы екі сөйлем жаз.",
+    "Past Continuous арқылы өткендегі бір сәтті сипатта.",
+    "Past Perfect және Used to арқылы сөйлемдер құрастыр."
+  ],
+
+  reading:{
+    title:"A Day at the Workshop",
+    text:`A Day at the Workshop
+
+Last Saturday, Ayan visited his uncle's electronics workshop. He arrived at nine in the morning.
+
+When he entered, his uncle was repairing an old radio. Ayan had never seen the inside of that radio before.
+
+His uncle had been working on it for two hours, so he needed a short break.
+
+They drank tea together, and then Ayan helped him organize the tools.
+
+At eleven, they tested the radio, but it did not work.
+
+While Ayan was checking the batteries, his uncle found a loose wire.
+
+They fixed the problem and heard music from the radio a few minutes later.
+
+Before lunch, they had repaired the radio and cleaned the worktable.
+
+Ayan used to think electronic repairs were boring, but that morning changed his opinion.
+
+In the afternoon, he watched an online lesson about electric circuits.
+
+He wrote notes because he wanted to remember the new English words.
+
+On Sunday, he showed his sister the repaired radio, but he did not try to repair her phone.
+
+He understood that repairing smartphones required more training and experience.`,
+    teams:[
+      [
+        "Ayan arrived at the workshop at nine.",
+        "His uncle was preparing lunch when Ayan arrived.",
+        "Ayan had never seen the inside of that radio before.",
+        "His uncle had been working for two hours.",
+        "They tested the radio at eleven.",
+        "The radio worked immediately.",
+        "Ayan's uncle found a loose wire.",
+        "They cleaned the worktable after lunch.",
+        "Ayan still thought electronics were boring.",
+        "Ayan repaired his sister's phone on Sunday."
+      ],
+      [
+        "Ayan visited his aunt's hospital.",
+        "His uncle was repairing an old radio.",
+        "They took a break and drank tea.",
+        "Ayan checked the batteries.",
+        "His uncle discovered a broken screen.",
+        "They heard music after fixing the radio.",
+        "Ayan watched a lesson about electric circuits.",
+        "He wrote notes to remember new words.",
+        "Ayan showed his sister the radio on Saturday.",
+        "Ayan understood phone repairs required more training."
+      ]
+    ],
+    answers:[
+      [true,false,true,true,true,false,true,false,false,false],
+      [false,true,true,true,false,true,true,true,false,true]
+    ]
+  },
+
+  written:[
+    {
+      title:"2. Етістіктерді дұрыс Past Tense түріне қой",
+      instruction:"Сөйлемнің мағынасына сәйкес шақ таңдап, толық жаз.",
+      teams:[
+        [
+          "Yesterday I (go) to the library.",
+          "At 8 p.m. I (do) my homework.",
+          "By the time we arrived, the film (start).",
+          "She (study) for two hours before dinner.",
+          "While he (walk), he (see) an old friend.",
+          "I (never/visit) that museum before last year."
+        ],
+        [
+          "Last week we (visit) our relatives.",
+          "At 10 a.m. she (read) a book.",
+          "By the time I called, he (leave).",
+          "They (work) for three hours before lunch.",
+          "While I (cook), the phone (ring).",
+          "She (not/finish) her work when the teacher arrived."
+        ]
+      ]
+    },
+    {
+      title:"3. Қате сөйлемдерді түзет",
+      instruction:"Қате етістікті түзетіп, грамматикалық себебін түсіндір.",
+      teams:[
+        [
+          "I didn't went to college yesterday.",
+          "She were watching TV at nine.",
+          "When I arrived, the train already left.",
+          "He had been work for two hours.",
+          "Did you used to play football?",
+          "They was studying when I came."
+        ],
+        [
+          "He didn't bought a new phone.",
+          "They was playing football.",
+          "By the time I came, the class already started.",
+          "She had been study since morning.",
+          "I didn't used to like tea.",
+          "The phone was suddenly rang while I was sleeping."
+        ]
+      ]
+    },
+    {
+      title:"4. Өткен оқиға туралы әңгіме жаз",
+      instruction:"Соңғы мәтін кемінде сегіз сөйлемнен тұрсын.",
+      teams:[
+        [
+          "Past Simple арқылы кеше істеген үш әрекетіңді жаз.",
+          "Past Continuous арқылы кешкі бір уақытты сипатта.",
+          "Past Perfect арқылы екі оқиғаның ретін көрсет.",
+          "Past Perfect Continuous арқылы ұзақ әрекетті сипатта.",
+          "Used to арқылы бұрынғы екі әдетіңді жаз.",
+          "An Unforgettable Day тақырыбында сегіз сөйлем жаз."
+        ],
+        [
+          "Past Simple арқылы өткен демалысты сипатта.",
+          "Past Continuous арқылы кешегі бір оқиғаны айт.",
+          "Past Perfect арқылы ертерек болған оқиғаны жаз.",
+          "Past Perfect Continuous арқылы ұзақ әрекетті сипатта.",
+          "Used to арқылы бұрынғы екі әдетіңді жаз.",
+          "A Surprising Experience тақырыбында сегіз сөйлем жаз."
+        ]
+      ]
+    }
+  ],
+
+  oral:[
+    {q:"Make a Past Simple sentence using yesterday.",
+     a:"I visited my friend yesterday."},
+    {q:"What are the past forms of go, buy and see?",
+     a:"Went, bought, saw."},
+    {q:"Correct: I didn't went to college.",
+     a:"I didn't go to college."},
+    {q:"Complete: At 8 p.m. yesterday, I ...",
+     a:"At 8 p.m. yesterday, I was doing my homework."},
+    {q:"Complete: When I arrived, the lesson ...",
+     a:"When I arrived, the lesson had already started."},
+    {q:"Explain Past Simple and Past Continuous.",
+     a:"Past Simple: completed past action. Past Continuous: an action in progress in the past."},
+    {q:"Join: I was studying. My friend called.",
+     a:"I was studying when my friend called."},
+    {q:"Join: My sister was drawing. I was reading.",
+     a:"While my sister was drawing, I was reading."},
+    {q:"Use Past Perfect Continuous with for two hours.",
+     a:"I had been studying for two hours before dinner."},
+    {q:"Correct: She had been work since morning.",
+     a:"She had been working since morning."},
+    {q:"Make a sentence with used to.",
+     a:"I used to play football every day."},
+    {q:"Explain Past Perfect vs Past Perfect Continuous.",
+     a:"Past Perfect often focuses on an earlier completed event. Past Perfect Continuous emphasizes duration."}
+  ]
+};
+</script>
+<script src="script.js" defer></script>
+</body>
+</html>
